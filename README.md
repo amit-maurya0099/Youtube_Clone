@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Youtube Clone
+![Screenshot 2024-06-14 112051](https://github.com/amit-maurya0099/Youtube-clone/assets/139799731/4718f542-e102-46f0-9b8f-3b9b068a859b)
+YouTube Clone is a web application that replicates the core features of YouTube, allowing users to search, watch and share videos . This project is built using modern web technologies to provide a familiar and user-friendly experience
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Search videos
+- Live Chat(with debouncing feature)
+- Comments
+- Videos Playback
+- Toggled SideBar
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
+![Screenshot 2024-06-14 140317](https://github.com/amit-maurya0099/Youtube-clone/assets/139799731/9710e7fb-16c9-4876-a1fa-38c2eb9c61ef)
 
-### `npm run build`
+![Screenshot 2024-06-14 140420](https://github.com/amit-maurya0099/Youtube-clone/assets/139799731/389f3d1c-d15e-40db-9f67-2980a84d776e)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To set up the YouTube Clone on your local machine, follow the instructions below.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Node.js](https://nodejs.org) installed on your machine.
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) package manager.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/amit-maurya0099/Youtube-clone.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Navigate to the project directory:
 
-### Code Splitting
+```bash
+cd Youtube-Clone
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Install the dependencies:
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Usage
 
-### Making a Progressive Web App
+1. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
+2. Open your web browser and visit [http://localhost:3000](http://localhost:3000).
 
-### Advanced Configuration
+  
+## Built With
+- This project is build with HTML, CSS, javaScript, & ReactJS.
+- Tailwind Css is used for Styling.
+- Redux Library is used for state management.
+- youtube Data api v3 is used for fetching videos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions to YouTube Clone are welcome. If you have suggestions, find any bugs, or want to add new features, feel free to open an issue or submit a pull request.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Acknowledgments
+
+YouTube Clone was developed for educational purposes and as a showcase of web development skills. Special thanks to the creators of YouTube for providing such a fantastic platform, and to the open-source community for their valuable contributions to web development tools and libraries.
+
+## Authors
+
+- [amit maurya](https://www.github.com/amit-maurya0099)
+
+
