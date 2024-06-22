@@ -7,11 +7,11 @@ const SideBar = () => {
   const isMenuOpen=useSelector(store=>store.app.isMenuOpen);
   if(!isMenuOpen) return null;
   return (
-    <div  className="bg-white w-[200px]   ">
+    <div  className="bg-white w-[15%] h-full   ">
       <div className='flex  shadow-lg font-normal px-10 text-lg my-5'>
         <ul>
           <li><Link to="/"> Home</Link></li>
-          <li >Shorts</li>
+          <li ><Link to="/results/shorts">Shorts</Link></li>
          <li>Subscriptions</li> 
         </ul>
       </div>
@@ -35,15 +35,15 @@ const SideBar = () => {
         <h1 className='font-bold text-lg px-5'>Explore</h1>
       <div className='flex w-[200px] shadow-lg font-normal px-10 text-lg'>
         <ul>
-          <li>Trending</li>
-          <li>Movies</li>
-          <li>Shopping</li>
-          <li>Music</li>
-          <li>Live</li>
-          <li>Gaming</li>
-          <li>News</li>
-          <li>Sport</li>
-          <li>Fashion</li>
+         <Link  to="/results/trending"><li>Trending</li></Link>
+         <Link  to="/results/movies"><li>Movies</li>   </Link>
+         <Link  to="/results/shopping"><li>Shopping</li></Link>
+         <Link  to="/results/music"><li>Music</li></Link>
+         <Link  to="/results/live"><li>Live</li></Link>
+         <Link  to="/results/gaming"><li>Gaming</li></Link>
+         <Link  to="/results/news"><li>News</li></Link>
+         <Link  to="/results/sports"><li>Sport</li></Link>
+         <Link  to="/results/fashion"><li>Fashion</li></Link>
 
         </ul>
       </div>
