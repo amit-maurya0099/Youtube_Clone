@@ -1,9 +1,12 @@
 # Youtube Clone
-![Screenshot 2024-06-14 112051](https://github.com/amit-maurya0099/Youtube-clone/assets/139799731/4718f542-e102-46f0-9b8f-3b9b068a859b)
+![Screenshot 2024-06-14 112051](https://github.com/user-attachments/assets/d1aeb132-34d4-42a3-b53a-9e999f11a8d8)
+
+
 YouTube Clone is a web application that replicates the core features of YouTube, allowing users to search, watch and share videos . This project is built using modern web technologies to provide a familiar and user-friendly experience
 
 
 
+![Screenshot 2024-06-14 140317](https://github.com/user-attachments/assets/8513f280-440c-4b44-89f5-99e143f79bd5)
 
 
 ## Features
